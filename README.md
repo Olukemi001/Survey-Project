@@ -38,6 +38,24 @@ The project implements a simple survey form where users can input their income a
 
 ## Setup Instructions
 
+flask_survey_project
+
+testing/
+├── app.py
+├── export_to_csv_py
+├── user_analysis.ipynb
+├── data
+ └── users.csv
+ └── income_by_age.png
+ └── spending_by_gender.png
+├── templates/
+│   └── index.html
+├── static/
+ └── styles.csv
+├── data/
+├── README.md
+
+
 ### Prerequisites
 1. Python 3.x installed on your system.
 2. MongoDB installed and running locally 
