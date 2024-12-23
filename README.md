@@ -36,25 +36,9 @@ The project implements a simple survey form where users can input their income a
 - **AWS EC2**: For hosting the web application.
 - **HTML/CSS**: For front-end design of the survey form.
 
+
+
 ## Setup Instructions
-
-flask_survey_project
-
-testing/
-├── app.py
-├── export_to_csv_py
-├── user_analysis.ipynb
-├── data
- └── users.csv
- └── income_by_age.png
- └── spending_by_gender.png
-├── templates/
-│   └── index.html
-├── static/
- └── styles.csv
-├── data/
-├── README.md
-
 
 ### Prerequisites
 1. Python 3.x installed on your system.
@@ -80,6 +64,14 @@ Clone the project repository or download the project files.
    ```bash
    python app.py
    ```
+
+####Necessary 
+Flask
+pymongo
+pandas
+matplotlib
+jupyter
+
 
 3. Open your browser and go to `http://127.0.0.1:5000/` to access the survey form.
 
@@ -139,4 +131,13 @@ The Flask application can be deployed on AWS EC2.
 ## Known Issues
 
 - **TemplateNotFound Error**: There is a known issue where the template `index.html` cannot be found on the deployed AWS instance due to missing files. This issue is being worked on, and a workaround will be provided soon. Network Connectivity Issues such as  firewalls or VPNs were blocking SSH connections causing inability to  ping the server.
+
+## Conclusion: Data Analysis and Visualizations
+### Conclusion
+
+This project provides valuable insights into income and spending patterns across different age and gender groups. The **Ages with the Highest Income** visualization highlights the key age demographics contributing the most to total income, allowing businesses to identify and target high-value customers, particularly those in their 30s and 40s, for products such as financial services or high-value goods. 
+
+The **Gender Distribution Across Spending Categories** chart reveals distinct spending behaviors between men and women, offering businesses the opportunity to tailor their offerings to specific gender preferences. For example, women may spend more on healthcare or shopping, while men may focus on transportation or entertainment. 
+
+By combining these insights, businesses can refine their marketing strategies, create personalized campaigns, and better understand their customer demographics. This data-driven approach will enable companies to optimize their products and services, ensuring they meet the needs and preferences of their target audiences.
 
