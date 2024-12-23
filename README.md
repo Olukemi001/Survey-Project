@@ -133,7 +133,6 @@ The Flask application can be deployed on AWS EC2.
 - **TemplateNotFound Error**: There is a known issue where the template `index.html` cannot be found on the deployed AWS instance due to missing files. This issue is being worked on, and a workaround will be provided soon. Network Connectivity Issues such as  firewalls or VPNs were blocking SSH connections causing inability to  ping the server.
 
 ## Conclusion: Data Analysis and Visualizations
-### Conclusion
 
 This project provides valuable insights into income and spending patterns across different age and gender groups. The **Ages with the Highest Income** visualization highlights the key age demographics contributing the most to total income, allowing businesses to identify and target high-value customers, particularly those in their 30s and 40s, for products such as financial services or high-value goods. 
 
